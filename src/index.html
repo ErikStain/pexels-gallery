@@ -7,10 +7,18 @@
   </head>
   <body>
     <form id="form">
-      <label for="">
+      <label for="query">
         Введите пожалуйста запрос
       </label>
       <input type="text" id="query" name="query" placeholder="Search">
+      <label for="perPage">
+        Сколко результатов поиска вы хотите получить?
+      </label>
+      <input type="number" id="perPage" name="perPage">
+      <label for="page">
+        Укажите количество страниц
+      </label>
+      <input type="number" id="page" name="page">
       <button class="search-btn" type="submit">Найти</button>
     </form>
     <h2>Результаты вашего запроса</h2>
